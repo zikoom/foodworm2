@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "113404088264",
+    "firebase_url": "https://foodworm2-7a2d7.firebaseio.com",
+    "project_id": "foodworm2-7a2d7",
+    "storage_bucket": "foodworm2-7a2d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113404088264:android:ef604493786d4ba5e37afd",
+        "android_client_info": {
+          "package_name": "com.example.foodworm2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113404088264-mm5mp072f3jg22vspmjc7glmokiv9jk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0XgwDK3fzx-6Y8owJs9jUcmoo1gzU8ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113404088264-mm5mp072f3jg22vspmjc7glmokiv9jk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

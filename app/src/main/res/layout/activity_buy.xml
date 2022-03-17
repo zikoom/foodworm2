@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="한식"
+                android:fontFamily="@font/melona"
+                android:gravity="center"
+                android:textSize="40sp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_Kminus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:background="#FFF"
+                android:text="-"
+                android:fontFamily="@font/melona"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_Kset"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:text="0"
+                android:fontFamily="@font/melona"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_Kplus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:text="+"
+                android:fontFamily="@font/melona"
+                android:textSize="30sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="일품"
+                android:fontFamily="@font/melona"
+                android:gravity="center"
+                android:textSize="40sp" >
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_Jminus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:background="#FFF"
+                android:text="-"
+                android:fontFamily="@font/melona"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_Jset"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:text="0"
+                android:fontFamily="@font/melona"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_Jplus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:text="+"
+                android:fontFamily="@font/melona"
+                android:textSize="30sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="양식"
+                android:fontFamily="@font/melona"
+                android:gravity="center"
+                android:textSize="40sp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_Uminus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/melona"
+                android:gravity="center"
+                android:background="#FFF"
+                android:text="-"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_Uset"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:fontFamily="@font/melona"
+                android:text="0"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_Uplus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:text="+"
+                android:fontFamily="@font/melona"
+                android:textSize="30sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="주문정보 "
+            android:fontFamily="@font/melona"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_order"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:fontFamily="@font/melona"
+            android:textSize="22sp"
+            android:background="#FFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="최종결제금액"
+            android:fontFamily="@font/melona"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_cash"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:fontFamily="@font/melona"
+            android:text=""
+            android:textSize="25sp"
+            android:background="#FFF"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="구매하기"
+            android:background="#FFFA8072"
+            android:fontFamily="@font/melona"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:id="@+id/btn_buy"/>
+    </LinearLayout>
+</LinearLayout>

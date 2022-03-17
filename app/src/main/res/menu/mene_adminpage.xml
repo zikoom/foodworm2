@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_admin_statistics"
+        android:title="전체통계"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menu_admin_alluserinfo"
+        android:title="회원정보"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menu_admin_allpurchaseinfo"
+        android:title="전체 판매내역"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menu_admin_allUsedinfo"
+        android:title="전체 사용내역"
+        app:showAsAction="never"
+        />
+
+</menu>

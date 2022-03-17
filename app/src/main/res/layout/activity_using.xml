@@ -1,0 +1,132 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".UsingActivity">
+
+
+    <Button
+        android:id="@+id/btn_usekor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:text="사용하기"
+        android:background="#FFFA8072"
+        android:fontFamily="@font/melona"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_usejpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="사용하기"
+        android:background="#FFFA8072"
+        android:fontFamily="@font/melona"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_usekor"
+        app:layout_constraintStart_toStartOf="@+id/btn_usekor"
+        app:layout_constraintTop_toBottomOf="@+id/btn_usekor" />
+
+    <Button
+        android:id="@+id/btn_useusa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="사용하기"
+        android:background="#FFFA8072"
+        android:fontFamily="@font/melona"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_usekor"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="@+id/btn_usekor"
+        app:layout_constraintTop_toBottomOf="@+id/btn_usejpa" />
+
+    <TextView
+        android:id="@+id/tv_showkorticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="0 매"
+        android:fontFamily="@font/melona"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_usekor"
+        app:layout_constraintEnd_toStartOf="@+id/btn_usekor"
+        app:layout_constraintTop_toTopOf="@+id/btn_usekor" />
+
+    <TextView
+        android:id="@+id/tv_showjpaticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="0 매"
+        android:fontFamily="@font/melona"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_usejpa"
+        app:layout_constraintEnd_toStartOf="@+id/btn_usejpa"
+        app:layout_constraintTop_toTopOf="@+id/btn_usejpa" />
+
+    <TextView
+        android:id="@+id/tv_showusaticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="0 매"
+        android:fontFamily="@font/melona"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_useusa"
+        app:layout_constraintEnd_toStartOf="@+id/btn_useusa"
+        app:layout_constraintTop_toTopOf="@+id/btn_useusa" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:text="한식"
+        android:fontFamily="@font/melona"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_usekor"
+        app:layout_constraintEnd_toStartOf="@+id/btn_usekor"
+        app:layout_constraintTop_toTopOf="@+id/btn_usekor" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:text="일품"
+        android:fontFamily="@font/melona"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_usejpa"
+        app:layout_constraintEnd_toStartOf="@+id/btn_usejpa"
+        app:layout_constraintTop_toTopOf="@+id/btn_usejpa" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:text="양식"
+        android:fontFamily="@font/melona"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_useusa"
+        app:layout_constraintEnd_toStartOf="@+id/btn_useusa"
+        app:layout_constraintTop_toTopOf="@+id/btn_useusa"
+        app:layout_constraintVertical_bias="0.482" />
+</androidx.constraintlayout.widget.ConstraintLayout>

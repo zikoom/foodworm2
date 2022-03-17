@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/euljiro"
+            android:text="오늘의 메뉴"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="50sp"
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_main_korea"
+                android:layout_width="140dp"
+                android:layout_height="200dp"
+
+                android:src="@drawable/sickbug">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/img_main_japan"
+                android:layout_width="140dp"
+                android:layout_height="200dp"
+
+                android:src="@drawable/sickbug">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/img_main_usa"
+                android:layout_width="140dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sickbug">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/euljiro"
+                android:gravity="center"
+                android:text="한식"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/euljiro"
+                android:gravity="center"
+                android:text="일품"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/euljiro"
+                android:gravity="center"
+                android:text="양식"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFFFF"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_main_using"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="60dp"
+            android:background="#FFFFFFFF"
+            android:fontFamily="@font/melona"
+            android:text="사용하기"
+            android:textColor="#FFFA8072"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_main_buy"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFFFF"
+            android:fontFamily="@font/melona"
+            android:text="구매하기"
+            android:textColor="#FFFA8072"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_mypage"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFFFF"
+            android:fontFamily="@font/melona"
+            android:text="마이페이지"
+            android:textColor="#FFFA8072"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
